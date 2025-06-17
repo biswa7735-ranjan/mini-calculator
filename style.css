@@ -1,0 +1,95 @@
+/* body::before {
+    content: "";
+    position: absolute;
+    inset: 40% -60% 0 -60%;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav.before .active-element {
+    transform: rotateY(180deg);
+} */
+
+h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#operator {
+    height: 75px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin-left: 10px;
+    font-size: x-large;
+    color: white;
+}
+
+#num1 {
+    border: 2px solid cyan;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+}
+
+#num2 {
+    border: 2px solid cyan;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.cal {
+    margin-left: 375px;
+    background-color: rgba(35, 35, 220, 0.203);
+    height: 400px;
+    width: 500px;
+}
+
+.mer {
+    height: 20px;
+    width: 500px;
+    color: yellow;
+    font-size: x-large;
+}
+
+body {
+    background-image: url("mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.avif");
+    background-size: cover;
+}
+
+h3 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
